@@ -117,12 +117,6 @@ function setupRW() {
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
-	debug_log("");
-	debug_log("");
-	debug_log("_______________________________________________________________________A T E N Ç Ã O ! ! !  NÃO DEIXE NADA PLUGADO NAS PORTAS USBs_______________________________________________________________________");
-	debug_log("");
-	debug_log("");
-	debug_log("_____________________________________________________A G U A R D E ! ! !  10 SEGUNDOS PARA O ENVIO DO HOST 702	PARA O GUIA DO USUÁRIO E PARA NO NAVEGADOR.____________________________________________");
 
 	/* Getting code execution */
 	/* ... */
