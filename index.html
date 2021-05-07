@@ -27,6 +27,7 @@ function done()
 {
     if(main_ret == 0 || main_ret == 179)
     {
+					   
        read_ptr_at(0);
     }
     else
@@ -35,12 +36,18 @@ function done()
 
 window.midExploit = function()
 {
+	 
+																	 
+																									 
     //preloadScripts(['../blob.js', '../jb.js', 'netcat.js'], go);
-    preloadScripts(['702.js', 'c-code.js', 'loader-702.js', 'hen.js', 'mira-c-code.js'], go);
+		
+																								  
+    preloadScripts(['702.js', 'jb702.js', 'preloader702.js', 'restore702.js', 'loader702.js'], go);
 }
 
 window.postExploit = function()
 {
+															  
     setTimeout(function() //update the screen one last time...
     {
         eval.call(window, scriptCode);
